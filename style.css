@@ -3,35 +3,38 @@
   src: url('font/Splatfont.ttf') format('truetype');
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+h1 {
+  font-family: 'tare';
+  text-align: center;
+}  
+
+h2 {
+  font-family: 'tare';
+  text-align: center;
+}
+
+ a {
+  font-family: 'tare';
+  text-align: center;
+  color: #0000ff;
+}
+
+script {
+  font-family: 'tare';
+  text-align: center;
+}
+
+.hoge {
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222222;
+    color: #fff;
   }
-
-.parent{
-  position:absolute;
-  top:0;left:0;right:0;bottom:0;
-  background:url(image.png);
-  background-size:cover;
-  background-position:50% 80%;
+  
+  a {
+    color: #00ff00;
+  }
 }
-
-*{
-  margin:0;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(2px);
-  border-radius: 8px;
-  border: none;
-  border-radius: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid #ffff;
-}
-
