@@ -1,42 +1,6 @@
 @font-face {
   font-family: 'tare';
-  src: url('font/Splatfont.ttf') format('truetype');
-}
-
-h1 {
-  font-family: 'tare';
-  text-align: center;
-}  
-
-h2 {
-  font-family: 'tare';
-  text-align: center;
-}
-
- a {
-  font-family: 'tare';
-  text-align: center;
-  color: #0000ff;
-}
-
-script {
-  font-family: 'tare';
-  text-align: center;
-}
-
-.hoge {
-  text-align: center;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #222222;
-    color: #fff;
-  }
-  
-  a {
-    color: #00ff00;
-  }
+  src: url('font/FOT-RowdyStd-EB.ttf') format('truetype');
 }
 
 body {
