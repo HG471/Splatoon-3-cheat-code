@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'tare';
-  src: url('font/FOT-RowdyStd-EB.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 body {
   margin: 0;
