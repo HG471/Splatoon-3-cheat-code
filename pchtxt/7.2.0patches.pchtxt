@@ -1,0 +1,259 @@
+@nsobid-8D1A8768E333A516455B1F975ECA9EC11CFD6077
+#splatoon3 7.2.0
+#We recommend using Flexlion (UserMod). Please use it on Emunand as you may get banned if you use it online.
+
+@flag offset_shift 0x100
+
+// Energystand bug everywhere (moon jump required) [gomashio]
+@disabled
+00BBA0D0 C0035FD6
+
+// Moonjump [gomashio]
+@disabled
+02C7AFEC E9031F2A
+
+// Air jump [gomashio]
+@disabled
+02C7AFEC 69008052
+
+// No Death Zones (W/D) [gomashio]
+@disabled
+02C6E238 C0035FD6
+
+// Infinite Ink [gomashio]
+@disabled
+02CA9704 20008052C0035FD6
+
+// ESP [gomashio]
+@disabled
+02C801C4 20008052
+02C80370 20008052
+02D57B48 21008052
+
+// No Bomb Delay [gomashio]
+@disabled
+02CDC390 C0035FD6
+
+// Infinite Specials v2 [gomashio]
+@disabled
+02CA5D20 E9FF9F52
+
+// Infinite Power Clams [gomashio]
+@disabled
+0269EA64 C0035FD6
+
+// Infinite fireworks ball [gomashio]
+@disabled
+02CDDD38 1F2003D5
+02CDDD48 1F2003D5
+
+// Infinite Ink (mainOnly) [gomashio]
+@disabled
+02ED36AC 0028201E
+
+// No Death Zones Only [gomashio]
+@disabled
+02C6D9B4 C0035FD6
+
+// All Shooters Rapidfire [gomashio]
+@disabled
+02D9E148 E8031F2A
+02DD39C0 1F2003D5
+
+// All Brush Rapidfire [gomashio]
+@disabled
+02CDA1BC C0035FD6
+02D824F4 28008052688E00B9
+
+// All Rollers Rapidfire [gomashio]
+@disabled
+02CDA1BC C0035FD6
+02DA81C0 28008052688E00B9
+
+// Jetpack Rapidfire [gomashio]
+@disabled
+02CD9A3C C0035FD6
+02D9E148 E8031F2A
+
+// Crab Tank Rapidfire [gomashio]
+@disabled
+02CDAE64 C0035FD6
+02D9E148 E8031F2A
+
+// Infinite Maneuver Slide [gomashio]
+@disabled
+02EF715C E9031F2A
+
+// No Charger Delay [gomashio]
+@disabled
+02CD9030 C0035FD6
+
+// No Knockback v2 [gomashio]
+@disabled
+02CD9888 C0035FD6
+02CD9BF0 C0035FD6
+
+// No Ultra Shot Delay [gomashio]
+@disabled
+02D9E148 E8031F2A
+
+// Infinite SuperHook (Turn off infinite ink!) [gomashio]
+@disabled
+02CA98FC 00102E1E
+
+// Infinite Jetpack [gomashio]
+@disabled
+02E38300 C0035FD6
+
+// Infinite Crab Tank [gomashio]
+@disabled
+02DFDEC4 C0035FD6
+
+// Infinite KingSquid [gomashio]
+@disabled
+02DF2C70 C0035FD6
+
+// Rainmaker [gomashio]
+@disabled
+02CF8F20 0A000014
+02CEB194 1F2003D5
+02D557A8 2100805201692938
+
+// Always special [gomashio]
+@disabled
+02CF8F20 20008052C0035FD6
+
+// No special mode (Please don't get carried away lol) [gomashio]
+@disabled
+02ED5214 0028201E
+
+// No Error [gomashio]
+@disabled
+04D290CC 28000014
+04D291B8 29000014
+04D292B0 2B000014
+
+// Increase the amount of Ikura roe in hero mode (HEROMODE) [gomashio]
+@disabled
+02AF6014 F6FF9F52
+041BC134 F9FF9F52
+041D5F10 13E28452
+
+// Max 99 Iriconium (HEROMODE) [gomashio]
+@disabled
+0459A870 680C8052
+0459CF98 690C8052
+
+// Max Enhancement 999 Points (HEROMODE) [gomashio]
+@disabled
+0459A780 E87C8052
+0459D030 E97C8052
+
+// Reversal [gomashio]
+@disabled
+02C7B418 1F2003D5
+02C7B424 2801403908010052
+
+// Offline shop [gomashio]
+@disabled
+0387FBB0 28008052
+
+// Price Free (Shop) [gomashio]
+@disabled
+016A57C4 E8031F2A
+016C3F54 E8031F2A
+
+// All Weapons Unlock (REBOOT NEED) [gomashio]
+@disabled
+01720640 E8031F2A
+017205E0 E8031F2A
+
+// All Stages Unlock (REBOOT NEED) [gomashio]
+@disabled
+016916CC E8031F2A
+0171488C E8031F2A
+
+// Change Subweapon(Splash_bomb) (REBOOT NEED) [gomashio]
+@disabled
+016C3FB4 E8031F2A
+017203C4 E8031F2A
+
+// BigRun Held (Shoal) (REBOOT NEED) [gomashio]
+@disabled
+016916CC E8031F2A
+016916FC E8031F2A
+
+// No ALL sound (REBOOT NEED) [gomashio]
+@disabled
+050A5BD0 C0035FD6
+
+// Shush Mr Sheldon [gomashio]
+@disabled
+044769B8 C0035FD6
+04476B0C C0035FD6
+
+// Automatic Walk [gomashio]
+@disabled
+02C6670C 03102E1E
+02C6673C E503271E
+
+// Player Translucent [gomashio]
+@disabled
+02CA9B7C E8031F2A
+
+// Special Effect [gomashio]
+@disabled
+02CE8398 20008052
+
+// En [gomashio]
+@disabled
+0640CF0B "EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen"
+
+// Auto LanMode [gomashio]
+@disabled
+03FE5868 2A0080520AC10039
+
+// Can Show Customize [gomashio]
+@disabled
+033CD368 1F2003D5
+
+// speed?Hack(bug) [gomashio]
+@disabled
+02C7B008 E9031F2A
+
+// No background music and stimulation sounds [gomashio]
+@disabled
+0506BF60 C0035FD6
+
+// everywhere This way!&Booyah! Signal [gomashio]
+@disabled
+02CE09CC 20008052
+
+// I can't paint lol [gomashio]
+@disabled
+03D4D544 C0035FD6
+
+// I can't paint lol v2 [gomashio]
+@disabled
+03CEE08C C0035FD6
+03D4D544 C0035FD6
+
+// Slow motion [gomashio]
+@disabled
+00BB9EE0 C0035FD6
+
+// RollerBug [gomashio]
+@disabled
+02CDA058 C0035FD6
+
+// Ultra Stamp once again [gomashio]
+@disabled
+02CDAA20 C0035FD6
+
+// player&ObjectINVISIBLE [gomashio]
+@disabled
+04F1A754 C0035FD6
+
+// Delete Ink Effect [gomashio]
+@disabled
+0097B26C C0035FD6
