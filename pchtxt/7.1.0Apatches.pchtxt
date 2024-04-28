@@ -1,0 +1,239 @@
+@nsobid-4FF73E0AEAB4BEBBFAABF56A692A09EEB66C2F07
+#splatoon3 7.1.0
+#We recommend using Flexlion (UserMod). Please use it on Emunand as you may get banned if you use it online.
+
+@flag offset_shift 0x100
+
+// Moonjump [gomashio]
+@disabled
+02C79E70 E9031F2A
+
+// Air jump [gomashio]
+@disabled
+02C79E70 69008052
+
+// No Death Zones (W/D)
+@disabled
+02C6D0BC C0035FD6
+
+// Infinite Ink [gomashio]
+@disabled
+02CA8548 20008052C0035FD6
+
+// ESP
+@disabled
+02C7F048 20008052
+02C7F1F4 20008052
+02d56798 21008052
+
+// No Bomb Delay
+@disabled
+02CDB164 C0035FD6 // ff c3 01 d1 sub sp,sp,#0x70
+
+// Infinite Specials v2 [gomashio]
+@disabled
+02CA4B64 E9FF9F52
+
+// Infinite fireworks ball [gomashio]
+@disabled
+02CDCB0C 1F2003D5
+02CDCB1C 1F2003D5
+
+// Infinite Ink (mainOnly) [gomashio]
+@disabled
+02ED184C 0028201E
+
+// No Death Zones Only [gomashio]
+@disabled
+02C6C838 C0035FD6
+
+// All Shooters Rapidfire
+@disabled
+02D9CDC8 E8031F2A
+02DD25D0 1F2003D5
+
+// All Rollers Rapidfire
+@disabled
+02CD8F94 C0035FD6
+02DA6E38 28008052688E00B9
+
+// Jetpack Rapidfire
+@disabled
+02CD8814 C0035FD6
+02D9CDC8 E8031F2A
+
+// Crab Tank Rapidfire
+@disabled
+02CD9C3C C0035FD6
+02D9CDC8 E8031F2A
+
+// Infinite Maneuver Slide
+@disabled
+02EF52FC E9031F2A
+
+// No Charger Delay
+@disabled
+02CD7E08 C0035FD6
+
+// No Knockback v2 [gomashio]
+@disabled
+02CD8660 C0035FD6
+02CD89C8 C0035FD6
+
+// No Ultra Shot Delay
+@disabled
+02D9CDC8 E8031F2A
+
+// Infinite SuperHook (Turn off infinite ink!) [gomashio]
+@disabled
+02CA8740 00102E1E
+
+// Infinite Jetpack
+@disabled
+02E365C8 C0035FD6
+
+// Infinite Crab Tank
+@disabled
+02DFC300 C0035FD6
+
+// Infinite KingSquid
+@disabled
+02DF10A4 C0035FD6
+
+// Rainmaker
+@disabled
+02CF7BC8 0A000014
+02CE9E80 1F2003D5
+02D543F8 2100805201692938
+
+// Always special
+@disabled
+02CF7BC8 20008052C0035FD6
+
+// No special mode (Please don't get carried away lol)
+@disabled
+02ED33B4 0028201E
+
+// No Error
+@disabled
+04D26B6C 28000014
+04D26C58 29000014
+04D26D50 2B000014
+
+// Increase the amount of Ikura roe in hero mode (HEROMODE) [gomashio]
+@disabled
+02AF5974 F6FF9F52
+041B9FC4 F9FF9F52
+041D3DA0 13E28452
+
+// Max 99 Iriconium (HEROMODE) [gomashio]
+@disabled
+045986E0 680C8052
+0459AE08 690C8052
+
+// Max Enhancement 999 Points (HEROMODE) [gomashio]
+@disabled
+045985F0 E87C8052
+0459AEA0 E97C8052
+
+// Reversal
+@disabled
+02C7A29C 1F2003D5
+02C7A2A8 2801403908010052
+
+// Offline Shop
+@disabled
+0387DA60 28008052
+
+// Price Free (Shop)
+@disabled
+016A5774 E8031F2A
+016C3F04 E8031F2A
+
+// All Weapons Unlock (REBOOT NEED)
+@disabled
+017205F0 E8031F2A
+01720590 E8031F2A
+
+// All Stages Unlock (REBOOT NEED)
+@disabled
+0169167C E8031F2A
+0171483C E8031F2A
+
+// BigRun Held (Shoal) (REBOOT NEED)
+@disabled
+0169167C E8031F2A
+016916AC E8031F2A
+
+// No ALL sound (REBOOT NEED) [gomashio]
+@disabled
+050A3670 C0035FD6
+
+// Shush Mr Sheldon
+@disabled
+04474828 C0035FD6
+0447497C C0035FD6
+
+// Automatic Walk
+@disabled
+02C65590 03102E1E
+02C655C0 E503271E
+
+// Player Translucent
+@disabled
+02CA89C0 E8031F2A
+
+// Special Effect
+@disabled
+02CE7084 20008052
+
+// En
+@disabled
+0640AF06 "EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen"
+
+// Auto LanMode
+@disabled
+03FE36F8 2A0080520AC10039
+
+// Can Show Customize
+@disabled
+033CB418 1F2003D5
+
+// Swim Everywhere&Moonjump(bug) [gomashio]
+@disabled
+02C79E74 E9031F2A
+
+// speed?Hack(bug) [gomashio]
+@disabled
+02C79E8C E9031F2A
+
+// No background music and stimulation sounds [gomashio]
+@disabled
+05069A00 C0035FD6
+
+// everywhere This way!&Booyah! Signal [gomashio]
+@disabled
+02CDF7A0 20008052
+
+// I can't paint lol v2 [gomashio]
+@disabled
+03CEBF1C C0035FD6
+03D4B3D4 C0035FD6
+
+// RollerBug [gomashio]
+@disabled
+02CD8E30 C0035FD6
+
+// Ultra Stamp once again [gomashio]
+@disabled
+02CD97F8 C0035FD6
+
+// player&ObjectINVISIBLE [gomashio]
+@disabled
+04F181F4 C0035FD6
+
+// Delete Ink Effect [gomashio]
+@disabled
+0097B26C C0035FD6
+
+// Movable,Cant use,TeamChanger

@@ -1,0 +1,28 @@
+@nsobid-4D8978BF09606E008DF242DDAF20BC7BCA6D28E3
+#Testcode
+
+@flag offset_shift 0x100
+
+// Air Jump
+@disabled
+02A7C01C 68008052
+
+// No Bomb Delay
+@disabled
+02ad6288 C0035FD6
+
+// No death Zones
+@disabled
+019DD17C C0035FD6
+
+// Don't Show "Cant use!"
+@disabled
+02cf2d48 1F2003D5
+02cf2d70 28008052
+02cf2dd4 A4000014
+
+// Movable
+@disabled
+02a51cd8 E0031F2A
+02af1dfc E0031F2A
+008357ac 1F2003D5

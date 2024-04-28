@@ -1,0 +1,38 @@
+@nsobid-C1712194EA77F81FEBD3B2A248AA9567C3C1137F
+
+@flag offset_shift 0x100
+
+// infinite special [gomashio]
+@disabled
+0168840C 68008052
+
+// Crab Tank Rapidfire [gomashio]
+@disabled
+02ABE30C C0035FD6
+02B75CD4 E8031F2A
+
+// No Bomb Delay [gomashio]
+@disabled
+02ABF42C C0035FD6
+
+// ESP [gomashio]
+@disabled
+02A6C8B0 20008052
+02A6CA5C 20008052
+02B33A24 21008052
+
+// Air Jump [gomashio]
+@disabled
+02A67A90 68008052
+
+// Don't Show "Cant use!" [gomashio]
+@disabled
+02cd0aa4 1F2003D5
+02cd0acc 28008052
+02cd0b30 A4000014
+
+// Movable [test]
+@disabled
+02ad6f70 E0031F2A
+02ad9cc0 E0031F2A
+0083696c 1F2003D5

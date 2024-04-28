@@ -1,0 +1,219 @@
+@nsobid-B719E1205BC5B5E8C5EE1734AF5F48730C94A92B
+#splatoon3 7.0.0
+#Flexlion(UserMod)での使用を推奨します。オンラインで使用するとBANされる可能性があるため、Emunandで使用してください。
+
+@flag offset_shift 0x100
+
+// Moonjump [gomashio]
+@disabled
+02C79A4C E9031F2A
+
+// Air jump [gomashio]
+@disabled
+02C79A4C 69008052
+
+// No Death Zones [gomashio]
+@disabled
+02C6CC98 C0035FD6
+
+// Infinite Ink [gomashio]
+@disabled
+02CA8124 20008052C0035FD6
+
+// Infinite Ink (omnipotent) [gomashio]
+@disabled
+02CA831C 00102E1E
+
+// No Bomb Delay [gomashio]
+@disabled
+02CDAD40 C0035FD6 // ff c3 01 d1 sub sp,sp,#0x70
+
+// Infinite Specials [gomashio]
+@disabled
+02CA4740 E9FF9F52
+
+// Infinite fireworks ball [gomashio]
+@disabled
+02CDC6E8 1F2003D5
+02CDC6F8 1F2003D5
+
+// ESP [gomashio]
+@disabled
+02C7EC24 20008052
+02C7EDD0 20008052
+02D56308 21008052
+
+// Infinite Ink (main) [gomashio]
+@disabled
+02ED138C 0028201E
+
+// All Shooters Rapidfire [gomashio]
+@disabled
+02d9c938 E8031F2A
+02dd2140 1F2003D5
+
+// All Rollers Rapidfire [gomashio]
+@disabled
+02cd8b70 C0035FD6
+02da69a0 28008052688E00B9
+
+// Jetpack Rapidfire [gomashio]
+@disabled
+02CD83F0 C0035FD6
+02d9c938 E8031F2A
+
+// Crab Tank Rapidfire [gomashio]
+@disabled
+02CD9818 C0035FD6
+02D9C938 E8031F2A
+
+// Infinite  SideStep [gomashio]
+@disabled
+02ef4e3c E9031F2A
+
+// Infinite Specials (REBOOT NEED) [gomashio]
+@disabled
+017202D0 E8031F2A
+
+// Infinite Jetpack [gomashio]
+@disabled
+02e36138 C0035FD6
+
+// Infinite Crab Tank [gomashio]
+@disabled
+02dfbe70 C0035FD6
+
+// Infinite Castle [gomashio]
+@disabled
+02df0c14 C0035FD6
+
+// Rainmaker [gomashio]
+@disabled
+02CF77A4 0A000014
+02CE9A5C 1F2003D5
+02D53F68 2100805201692938
+
+// No special mode (Please don't get carried away lol) [gomashio]
+@disabled
+02ed2ef4 0028201E
+
+// Reversal [gomashio]
+@disabled
+02C79E78 1F2003D5
+02C79E84 2801403908010052
+
+// All Weapons Unlock (REBOOT NEED) [gomashio]
+@disabled
+017202A0 E8031F2A
+01720240 E8031F2A
+
+// All Stages Unlock (REBOOT NEED) [gomashio]
+@disabled
+0169132C E8031F2A
+017144EC E8031F2A
+
+// BigRun Held (Shoal) (REBOOT NEED) [gomashio]
+@disabled
+0169132C E8031F2A
+0169135C E8031F2A
+
+// No ALL sound (REBOOT NEED) [gomashio]
+@disabled
+0509edc0 C0035FD6
+
+// Shush Mr Sheldon [gomashio]
+@disabled
+04470BF8 C0035FD6
+04470D4C C0035FD6
+
+// Price Free (Shop) [gomashio]
+@disabled
+016A5424 E8031F2A
+016C3BB4 E8031F2A
+
+// No Charger Delay [gomashio]
+@disabled
+02cd79e4 C0035FD6
+
+// No Knockback [gomashio]
+@disabled
+02CD85A4 C0035FD6
+
+// No Ultra Shot Delay [gomashio]
+@disabled
+02d9c938 E8031F2A
+
+// Always special [gomashio]
+@disabled
+02CF77A4 20008052C0035FD6
+
+// Automatic Walk [gomashio]
+@disabled
+02C65190 03102E1E
+02C651C0 E503271E
+
+// Player Translucent [gomashio]
+@disabled
+02CA859C E8031F2A
+
+// Offline Shop [gomashio]
+@disabled
+0387C830 28008052
+
+// No Error [gomashio]
+@disabled
+04D222BC 28000014
+04D223A8 29000014
+04D224A0 2B000014
+
+// Special Effect [gomashio]
+@disabled
+02CE6C60 20008052
+
+// En [gomashio]
+@disabled
+06405B3E "EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen, EUen"
+
+// Auto Lan [gomashio]
+@disabled
+03FE06A8 2A0080520AC10039
+
+// Can Show Customize [gomashio]
+@disabled
+033CAF58 1F2003D5
+
+// speed?Hack(bug) [gomashio]
+@disabled
+02c79a68 E9031F2A
+
+// No background music and stimulation sounds [gomashio]
+@disabled
+05065150 C0035FD6
+
+// everywhere camon&Nice Signal [gomashio]
+@disabled
+02CDF37C 20008052
+
+// I can't paint lol [gomashio]
+@disabled
+03d48a04 C0035FD6
+
+// player&ObjectINVISIBLE [gomashio]
+@disabled
+04f13944 C0035FD6
+
+// Delete Ink Effect [gomashio]
+@disabled
+0097b26c C0035FD6
+
+// Offline Lobby + Grizzco v2 [Coxxs]
+@disabled
+04014BE8 60020191C1008052
+03FC93B4 60E20091A1008052
+0635C0B6 "nope"
+0402F8C4 2B010054
+
+// Offline Lobby Jukebox [Coxxs]
+@disabled
+0400D074 1F2003D5
+037EC824 1F2003D5

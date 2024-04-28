@@ -1,0 +1,28 @@
+@nsobid-07D15286943ED1C35B22D34B465734FE9E3B3AD7
+#Testcode
+
+@flag offset_shift 0x100
+
+// No Bomb Delay [gomashio]
+@disabled
+02ad81dc C0035FD6
+
+// Air Jump [gomashio]
+@disabled
+02a7df70 68008052
+
+// Infinite Ink [gomashio]
+@disabled
+02CC1A24 0028201E
+
+// Don't Show "Cant use!" [gomashio]
+@disabled
+02cf4c38 1F2003D5
+02cf4c60 28008052
+02cf4cc4 A4000014
+
+// Movable [gomashio]
+@disabled
+02a53d28 E0031F2A
+02af3cec E0031F2A
+008357ac 1F2003D5

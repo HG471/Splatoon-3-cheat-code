@@ -1,0 +1,34 @@
+@nsobid-EE77A2712A7A687E718FE7C0FD71476692DBBED3
+#Splatoon 3 6.1.0
+
+@flag offset_shift 0x100
+
+// No Death Zones [gomashio]
+@disabled
+02a74260 C0035FD6
+
+// No bomb Delay [gomashio]
+@disabled
+02adb630 C0035FD6
+
+// Air jump [gomashio]
+@disabled
+02a81370 68008052
+
+// Don't Show "Cant use!" [gomashio]
+@disabled
+02cf8098 1F2003D5
+02cf80c0 28008052
+02cf8124 A4000014
+
+// Power Eggs become 99999 when increased [gomashio]
+@disabled
+02905A24 F6FF9F52
+03A1560C F9FF9F52
+03A2EF70 13E28452
+
+// Movable [gomashio]
+@disabled
+02a57078 E0031F2A
+02af7140 E0031F2A
+008357ac 1F2003D5
