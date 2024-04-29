@@ -144,7 +144,7 @@
 0459A870 680C8052
 0459CF98 690C8052
 
-// Max Enhancement 999 Points (HEROMODE) [gomashio]
+// Max Enhancement 99 Points (HEROMODE) [gomashio]
 @disabled
 0459A780 E87C8052
 0459D030 E97C8052
@@ -237,10 +237,6 @@
 @disabled
 03CEE08C C0035FD6
 03D4D544 C0035FD6
-
-// Slow motion [gomashio]
-@disabled
-00BB9EE0 C0035FD6
 
 // RollerBug [gomashio]
 @disabled
