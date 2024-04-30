@@ -238,6 +238,10 @@
 03CEE08C C0035FD6
 03D4D544 C0035FD6
 
+// Slow motion [gomashio]
+@disabled
+00BB9EE0 C0035FD6
+
 // RollerBug [gomashio]
 @disabled
 02CDA058 C0035FD6
