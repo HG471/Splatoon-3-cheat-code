@@ -4,10 +4,6 @@
 
 @flag offset_shift 0x100
 
-// Energystand bug everywhere (moon jump required) [gomashio]
-@disabled
-00BBA0D0 C0035FD6
-
 // Moonjump [gomashio]
 @disabled
 02C7AFEC E9031F2A
